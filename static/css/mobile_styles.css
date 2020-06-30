@@ -397,7 +397,7 @@ body {
 }
 
 .writing1 {
-    font-size: 215%;
+    font-size: 200%;
     font-family: "Quicksand", sans-serif;
     color: #666666
 }
@@ -413,7 +413,7 @@ body {
 }
 
 .writing2 {
-    font-size: 215%;
+    font-size: 200%;
     font-family: "Quicksand", sans-serif;
     color: white
 }
@@ -429,7 +429,7 @@ body {
 }
 
 .writing3 {
-    font-size: 215%;
+    font-size: 200%;
     font-family: "Quicksand", sans-serif;
     color: #0074D9
 }
@@ -450,13 +450,13 @@ body {
 }
 
 .headTtitle6 {
-    font-size: 75px;
+    font-size: 400%;
     font-family: "Quicksand", sans-serif;
     color: #0074D9
 }
 
 .writing4 {
-    font-size: 20px;
+    font-size: 200%;
     font-family: "Quicksand", sans-serif;
     color: #999
 }
@@ -474,8 +474,12 @@ body {
 }
 
 .mobile-photo {
-    height: 75%;
+    height: 50%;
     width: 100%;
+}
+
+.white-color {
+    color:white;
 }
 
 
