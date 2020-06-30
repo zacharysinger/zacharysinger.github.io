@@ -1,3 +1,10 @@
+html, body {
+  overflow-x: hidden;
+}
+body {
+  position: relative
+}
+
 /* From https://codepen.io/albizan/full/mMWdWZ*/
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
 html,
@@ -371,13 +378,13 @@ body {
 }
 
 .headTtitle1 {
-    font-size: 75px;
+    font-size: 400%;
     font-family: "Quicksand", sans-serif;
     color: #0074D9
 }
 
 .blank1 {
-    height: 35%;
+    height: 20%;
 }
 
 .no_x_slide {
@@ -390,7 +397,7 @@ body {
 }
 
 .writing1 {
-    font-size: 30px;
+    font-size: 215%;
     font-family: "Quicksand", sans-serif;
     color: #666666
 }
@@ -400,13 +407,13 @@ body {
 }
 
 .headTtitle2 {
-    font-size: 75px;
+    font-size: 400%;
     font-family: "Quicksand", sans-serif;
     color: white
 }
 
 .writing2 {
-    font-size: 30px;
+    font-size: 215%;
     font-family: "Quicksand", sans-serif;
     color: white
 }
@@ -415,27 +422,21 @@ body {
   opacity: 1;
 }
 
-.headTitle3 {
-    font-size: 30px;
-    font-family: "Quicksand", sans-serif;
-    color: white
-}
-
 .headTitle4 {
-    font-size: 25px;
+    font-size: 250%;
     font-family: "Quicksand", sans-serif;
-    color: white
+    color: #0074D9
 }
 
 .writing3 {
-    font-size: 20px;
+    font-size: 215%;
     font-family: "Quicksand", sans-serif;
-    color: white
+    color: #0074D9
 }
 
 .photo {
-    height: 175px;
-    width: 200px;
+    height: 100%;
+    width: 100%;
 }
 
 .blackSection {
@@ -446,6 +447,12 @@ body {
     font-size: 25px;
     font-family: "Quicksand", sans-serif;
     color: white
+}
+
+.headTtitle6 {
+    font-size: 75px;
+    font-family: "Quicksand", sans-serif;
+    color: #0074D9
 }
 
 .writing4 {
@@ -461,7 +468,14 @@ body {
 }
 
 .headTitle6 {
-    font-size: 25px;
+    font-size: 400%;
     font-family: "Quicksand", sans-serif;
     color: #0074D9
 }
+
+.mobile-photo {
+    height: 75%;
+    width: 100%;
+}
+
+
