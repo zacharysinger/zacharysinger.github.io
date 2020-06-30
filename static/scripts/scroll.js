@@ -13,8 +13,8 @@ $("a").click(function(){
 
   if ( $( this ).hasClass( "2" ) ) {
     $("html, body").animate({scrollTop: $("#" + pageId2).offset().top - 300}, 1000);
-    $("#mainListDiv").toggleClass("show_list");
-    $(".navTrigger").toggleClass('active');
+    $("#mainListDiv").removeClass("show_list");
+    $(".navTrigger").removeClass('active');
   }
 
   if ( $( this ).hasClass( "3" ) ) {
