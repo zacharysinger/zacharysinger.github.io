@@ -6,7 +6,7 @@ $("a").click(function(){
   var pageId5 = $(this).attr("data-page5");
 
   if ( $( this ).hasClass( "1" ) ) {
-    $("html, body").animate({scrollTop: $("#" + pageId1).offset().top - 200}, 1000);
+    $("html, body").animate({scrollTop: $("#" + pageId1).offset().top - 100}, 1000);
     $("#mainListDiv").toggleClass("show_list");
     $(".navTrigger").toggleClass('active');
   }
