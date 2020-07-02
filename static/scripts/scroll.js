@@ -37,7 +37,7 @@ $("a").click(function(){
   }
 
   if ( $( this ).hasClass( "6" ) ) {
-    $("html, body").animate({scrollTop: $("#" + pageId6).offset().top - 40}, 1000);
+    $("html, body").animate({scrollTop: $("#" + pageId6).offset().top - 10}, 1000);
     $("#mainListDiv").removeClass("show_list");
     $(".navTrigger").removeClass('active');
   }
