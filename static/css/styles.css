@@ -465,3 +465,8 @@ body {
     font-family: "Quicksand", sans-serif;
     color: #0074D9
 }
+
+.green {
+    color: lightgreen;
+    background-color: #0074D9
+}

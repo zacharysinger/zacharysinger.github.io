@@ -483,4 +483,9 @@ body {
     text-decoration: underline;
 }
 
+.green {
+    color: lightgreen;
+    background-color: #0074D9
+}
+
 
